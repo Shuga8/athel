@@ -44,7 +44,7 @@ const Hero = () => {
               href="https://t.me/athelking"
               target="_blank"
               referrerPolicy="no-refferer no-redirect"
-              className="w-full text-white flex flex-row gap-x-1.5 text-xs place-items-center py-0.5 px-1 bg-[#080b12] hover:bg-[#061A40] transition-"
+              className="w-full text-white flex flex-row gap-x-1.5 text-xs place-items-center py-0.5 px-1 bg-[#080b12] hover:bg-[#0a0d14] transition-colors ease-linear duration-300 rounded-[25px]"
             >
               <span>Telegram</span>
               <img src={arrow} alt="" className="object-contain" />
@@ -53,7 +53,7 @@ const Hero = () => {
               href="https://discord.com/users/1085961867157045308"
               target="_blank"
               referrerPolicy="no-refferer no-redirect"
-              className="w-full text-white flex flex-row gap-x-0.5 text-xs place-items-center"
+              className="w-full text-white flex flex-row gap-x-1.5 text-xs place-items-center py-0.5 px-1 bg-[#080b12] hover:bg-[#0a0d14] transition-colors ease-linear duration-300 rounded-[25px]"
             >
               <span>Discord</span>
               <img src={arrow} alt="" className="object-contain" />
@@ -61,7 +61,7 @@ const Hero = () => {
             <a
               href="mailto:Athelathel7@gmail.com"
               referrerPolicy="no-refferer no-redirect"
-              className="w-full text-white flex flex-row gap-x-0.5 text-xs place-items-center"
+              className="w-full text-white flex flex-row gap-x-1.5 text-xs place-items-center py-0.5 px-1 bg-[#080b12] hover:bg-[#0a0d14] transition-colors ease-linear duration-300 rounded-[25px]"
             >
               <span>Mail</span>
               <img src={arrow} alt="" className="object-contain" />
@@ -70,7 +70,7 @@ const Hero = () => {
               href="https://x.com/Atheloftomorrow?t=WsZHgVoSB0teeln45ABseQ&s=08"
               target="_blank"
               referrerPolicy="no-refferer no-redirect"
-              className="w-full text-white flex flex-row gap-x-0.5 text-xs place-items-center"
+              className="w-full text-white flex flex-row gap-x-1.5 text-xs place-items-center py-0.5 px-1 bg-[#080b12] hover:bg-[#0a0d14] transition-colors ease-linear duration-300 rounded-[25px]"
             >
               <span>X</span>
               <img src={arrow} alt="" className="object-contain" />
