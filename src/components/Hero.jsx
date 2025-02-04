@@ -39,12 +39,12 @@ const Hero = () => {
             Hire Me
           </Link>
 
-          <div className="links absolute right-10 top-[25%] translate-y-[-25%] bg-[#000000] px-4 py-3 rounded-xl hidden md:flex flex-col gap-y-3">
+          <div className="links absolute right-10 top-[25%] translate-y-[-25%] bg-[#000000] px-4 py-3 rounded-xl hidden md:flex flex-col gap-y-5">
             <a
               href="https://t.me/athelking"
               target="_blank"
               referrerPolicy="no-refferer no-redirect"
-              className="w-full text-white flex flex-row gap-x-0.5 text-xs place-items-center"
+              className="w-full text-white flex flex-row gap-x-1.5 text-xs place-items-center py-0.5 px-1 bg-[#080b12] hover:bg-[#061A40] transition-"
             >
               <span>Telegram</span>
               <img src={arrow} alt="" className="object-contain" />
