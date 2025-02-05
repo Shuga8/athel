@@ -1,6 +1,6 @@
-import { Hero, Nav } from "./index";
+import { Footer, Hero, Nav } from "./index";
 import kanga from "../assets/image-239-1024x497.png";
-import arrow from "../assets/arrow.svg";
+import arrow_bg from "../assets/big_arrow.png";
 import pixel from "../assets/Pixelverse-Info.png";
 import kitty from "../assets/kitty.jpg";
 import flexbot from "../assets/Flexbot-DYKMVPnb.png";
@@ -41,10 +41,14 @@ const Page = () => {
                 href=""
                 target="_blank"
                 referrerPolicy="no-refferer"
-                className="flex flex-row gap-x-0.5"
+                className="flex flex-row gap-x-1"
               >
                 <span className="text-cyan-500 text-lg">VIEW LIVE</span>
-                <img src={arrow} alt="" className="object-contain" />
+                <img
+                  src={arrow_bg}
+                  alt=""
+                  className="w-[18px] object-contain"
+                />
               </a>
             </div>
 
@@ -68,10 +72,14 @@ const Page = () => {
                 href=""
                 target="_blank"
                 referrerPolicy="no-refferer"
-                className="flex flex-row gap-x-0.5"
+                className="flex flex-row gap-x-1"
               >
                 <span className="text-cyan-500 text-lg">VIEW LIVE</span>
-                <img src={arrow} alt="" className="object-contain" />
+                <img
+                  src={arrow_bg}
+                  alt=""
+                  className="w-[18px] object-contain"
+                />
               </a>
             </div>
 
@@ -95,10 +103,14 @@ const Page = () => {
                 href=""
                 target="_blank"
                 referrerPolicy="no-refferer"
-                className="flex flex-row gap-x-0.5"
+                className="flex flex-row gap-x-1"
               >
                 <span className="text-cyan-500 text-lg">VIEW LIVE</span>
-                <img src={arrow} alt="" className="object-contain" />
+                <img
+                  src={arrow_bg}
+                  alt=""
+                  className="w-[18px] object-contain"
+                />
               </a>
             </div>
 
@@ -124,10 +136,14 @@ const Page = () => {
                 href=""
                 target="_blank"
                 referrerPolicy="no-refferer"
-                className="flex flex-row gap-x-0.5"
+                className="flex flex-row gap-x-1"
               >
                 <span className="text-cyan-500 text-lg">VIEW LIVE</span>
-                <img src={arrow} alt="" className="object-contain" />
+                <img
+                  src={arrow_bg}
+                  alt=""
+                  className="w-[18px] object-contain"
+                />
               </a>
             </div>
 
@@ -151,10 +167,14 @@ const Page = () => {
                 href=""
                 target="_blank"
                 referrerPolicy="no-refferer"
-                className="flex flex-row gap-x-0.5"
+                className="flex flex-row gap-x-1"
               >
                 <span className="text-cyan-500 text-lg">VIEW LIVE</span>
-                <img src={arrow} alt="" className="object-contain" />
+                <img
+                  src={arrow_bg}
+                  alt=""
+                  className="w-[18px] object-contain"
+                />
               </a>
             </div>
 
@@ -168,6 +188,8 @@ const Page = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };
