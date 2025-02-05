@@ -38,7 +38,7 @@ const Page = () => {
               </p>
 
               <a
-                href=""
+                href="https://trade.kanga.exchange/"
                 target="_blank"
                 referrerPolicy="no-refferer"
                 className="flex flex-row gap-x-1"
@@ -69,7 +69,7 @@ const Page = () => {
               <p className="text-base text-white">Web3 gaming project</p>
 
               <a
-                href=""
+                href="https://t.me/pixelversexyzbot"
                 target="_blank"
                 referrerPolicy="no-refferer"
                 className="flex flex-row gap-x-1"
@@ -100,7 +100,7 @@ const Page = () => {
               <p className="text-base text-white">Telegram gaming project.</p>
 
               <a
-                href=""
+                href="https://t.me/KittyMint_chat/1"
                 target="_blank"
                 referrerPolicy="no-refferer"
                 className="flex flex-row gap-x-1"
@@ -133,7 +133,7 @@ const Page = () => {
               </p>
 
               <a
-                href=""
+                href="https://www.flexbot.xyz/"
                 target="_blank"
                 referrerPolicy="no-refferer"
                 className="flex flex-row gap-x-1"
@@ -164,7 +164,7 @@ const Page = () => {
               <p className="text-base text-white">AI 3D Site</p>
 
               <a
-                href=""
+                href="https://deepsouth.ai/"
                 target="_blank"
                 referrerPolicy="no-refferer"
                 className="flex flex-row gap-x-1"
